@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://wallpaperswide.com/download/clock_2-wallpaper-3200x2400.jpg);
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .card {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .clock, .stopwatch, .timer {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .time {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .btns {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
